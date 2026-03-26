@@ -129,7 +129,7 @@ async function main() {
 			return
 		}
 
-		if (msg.includes("E_INSUFFICIENT_FUNDS")) {
+		if (msg.includes("EBLOB_WRITE_INSUFFICIENT_FUNDS")) {
 			console.log(
 				chalk.bold.whiteBright(
 					"You don't have enough",
