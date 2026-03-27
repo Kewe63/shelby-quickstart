@@ -90,7 +90,7 @@ async function main() {
 				: `expiring: ${expiry}`
 
 			console.log(
-				`· ${blob.name} — ${filesize(blob.size)}, ${expiryText}`,
+				`· ${blob.name} — ${filesize(Number(blob.size))}, ${expiryText}`,
 			)
 		}
 		/**
